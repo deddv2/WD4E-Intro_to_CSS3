@@ -55,9 +55,11 @@ footer {
 
 /* Step 8: Style the li tag */
 li {
-    display: inline-block; /* Thay đổi display theo yêu cầu */
-    width: 120px;          /* Thay đổi width theo yêu cầu */
+    display: inline-block; 
+    width: 200px;          /* Tăng từ 120px lên 200px để chữ không bị kích */
     text-align: center;
+    vertical-align: top;   /* Giúp các ô menu thẳng hàng với nhau */
+    margin: 5px;           /* Tạo khoảng cách nhỏ giữa các mục */
 }
 
 /* Step 9: Style the h1 tag */
