@@ -1,4 +1,80 @@
-body{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 150%;
+/* Step 3: Style the body tag (Giữ nguyên của giáo viên) */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 150%;
+    margin: 0;
+    padding: 0;
+    color: #222222; /* Charcoal - Đọc tốt trên nền sáng */
+    background-color: #f7f9fa;
+}
+
+/* Step 4: Style the header tag */
+header {
+    background-color: #1a365d; /* Dark Navy - Đạt chuẩn tương phản WAVE với chữ trắng */
+    padding: 20px;
+}
+
+/* Step 5: Style the nav tag */
+nav {
+    background-color: #2b6cb0; /* Lighter Blue */
+    padding: 10px 20px;
+}
+
+/* Định dạng bổ sung để menu hiển thị hàng ngang và không lỗi tương phản màu chữ */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    color: #ffffff; /* Chữ trắng trên nền xanh (Passed tương phản WAVE) */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Step 6: Style the main tag */
+main {
+    background-color: #ffffff; /* Nền trắng thuần */
+    font-size: 110%; /* Điều chỉnh font-size theo yêu cầu */
+    padding: 30px;
+    min-height: 400px;
+}
+
+/* Step 7: Style the footer tag */
+footer {
+    background-color: #2d3748; /* Dark Slate Gray */
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Step 8: Style the li tag */
+li {
+    display: inline-block; /* Thay đổi display theo yêu cầu */
+    width: 120px;          /* Thay đổi width theo yêu cầu */
+    text-align: center;
+}
+
+/* Step 9: Style the h1 tag */
+h1 {
+    text-align: center;            /* Căn giữa */
+    font-family: 'Georgia', serif; /* Đổi font family */
+    color: #ffffff;                /* Màu chữ trắng cho h1 nằm trong header */
+    margin: 0;
+}
+
+/* Đảm bảo nếu h1 xuất hiện trong thẻ main nền trắng thì chữ sẽ tự chuyển sang màu tối để không bị lỗi WAVE */
+main h1 {
+    color: #1a365d;
+}
+
+/* Step 10: Style the p tag */
+p {
+    line-height: 1.8; /* Thay đổi line-height theo yêu cầu */
+    margin-bottom: 15px;
 }
